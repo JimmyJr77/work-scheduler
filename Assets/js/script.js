@@ -1,11 +1,11 @@
 $(function() {
   var today = dayjs();
-  $('#currentDay').text(today.format('[It is finally ] MMM D, YYYY [. Today is the day you finally finish all your tasks.]'));
+  $('#currentDay').text(today.format('[Today is ] MMM D, YYYY [. This is the day you finally finish all your tasks.]'));
   
   var container = $("#day-container");
   var hourNow = dayjs().hour();
 
-  // Iterate over the hours from 9 AM to 5 PM
+  // Iterate over the hours from 9 AM to 5 PM and identify past, present, or future time formatting
   for (var hour = 9; hour <= 17; hour++) {
     var divId = "hour-" + hour;
     var divClass;
@@ -15,7 +15,7 @@ $(function() {
       divClass = "row time-block future";
     } else {
       divClass = "row time-block present";
-    }
+    };
     
     // Create a new div element with the unique ID and class
     var newDiv = $("<div>").attr("id", divId).addClass(divClass);

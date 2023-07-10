@@ -1,99 +1,60 @@
-# 05 Third-Party APIs: Work Day Scheduler
+# Work Day Scheduler
 
-## Your Task
+## Description
 
-Create a simple calendar application that allows a user to save events for each hour of a typical working day (9am&ndash;5pm) by modifying starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
+The Work Day Scheduler is a simple calendar application that allows users to save events for each hour of a typical working day (9am-5pm). The motivation behind building this project was to create a tool that helps individuals with busy schedules effectively manage their time. By providing a user-friendly interface, the Work Day Scheduler enables users to easily add important events and stay organized throughout the day.
 
-You'll need to use the [Day.js](https://day.js.org/en/) library to work with date and time. Be sure to read the documentation carefully and concentrate on using Day.js in the browser.
+The problem this project solves is the need for a convenient and accessible way to plan and track daily activities. With the Work Day Scheduler, users can quickly add events, view time blocks color-coded to indicate past, present, and future time periods, and save their events for later reference.
 
-## User Story
+Throughout the development of this project, I learned how to leverage the Day.js library to handle date and time manipulation in the browser. This library proved to be a valuable tool for working with time-based data and provided the necessary functionality to create a dynamic and responsive calendar application.
 
-```md
-AS AN employee with a busy schedule
-I WANT to add important events to a daily planner
-SO THAT I can manage my time effectively
-```
+## Table of Contents
 
-## Acceptance Criteria
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
 
-```md
-GIVEN I am using a daily planner to create a schedule
-WHEN I open the planner
-THEN the current day is displayed at the top of the calendar
-WHEN I scroll down
-THEN I am presented with timeblocks for standard business hours of 9am&ndash;5pm
-WHEN I view the timeblocks for that day
-THEN each timeblock is color coded to indicate whether it is in the past, present, or future
-WHEN I click into a timeblock
-THEN I can enter an event
-WHEN I click the save button for that timeblock
-THEN the text for that event is saved in local storage
-WHEN I refresh the page
-THEN the saved events persist
-```
+## Installation
 
-The following animation demonstrates the application functionality:
+To install and run the Work Day Scheduler locally, follow these steps:
 
-<!-- @TODO: create ticket to review/update image) -->
-![A user clicks on slots on the color-coded calendar and edits the events.](./Assets/05-third-party-apis-homework-demo.gif)
+1. Clone the GitHub repository [https://github.com/JimmyJr77/work-scheduler](https://github.com/JimmyJr77/work-scheduler) to your local machine.
+2. Navigate to the project's root directory.
+3. Open the `index.html` file in your preferred web browser.
 
-## Grading Requirements
+alternatively, you can access the deployed application at https://jimmyjr77.github.io/work-scheduler/
 
-> **Note**: If a Challenge assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
->
-> * A repository that has no code
->
-> * A repository that includes a unique name but nothing else
->
-> * A repository that includes only a README file but nothing else
->
-> * A repository that only includes starter code
+## Usage
 
-This Challenge is graded based on the following criteria:
+Once you have the Work Day Scheduler running, you can start utilizing its features to manage your daily schedule. Here's a brief overview of how to use the application:
 
-### Technical Acceptance Criteria: 40%
+1. The current day is displayed at the top of the calendar.
+2. Scroll down to view the time blocks for the standard business hours of 9am-5pm.
+3. Each time block is color-coded to indicate whether it is in the past, present, or future.
+4. Click into a time block to enter an event or update an existing event.
+5. To save an event, click the save button for the respective time block. The text for that event will be saved in local storage.
+6. If you refresh the page, the saved events will persist.
 
-* Satisfies all of the above acceptance criteria plus the following:
+Below is an example screenshot of the Work Day Scheduler:
 
-  * Uses a date utility library to work with date and time
+Full site view:
+![Work Day Scheduler](/assets/images/wd_sched_full.png)
 
-### Deployment: 32%
+Current date displayed at top:
+![Current date](/assets/images/wd_sched_date.png)
 
-* Application deployed at live URL
+Form fillable schedule blocks that save to local:
+![Schedule blocks](/assets/images/wd_sched_formfill.png)
 
-* Application loads with no errors
+## Credits
 
-* Application GitHub URL submitted
+This was an individual project, but credit is always due to my instructors, mentors, and classmates at edX.
 
-* GitHub repo contains application code
+The Work Day Scheduler project utilizes the following third-party assets:
 
-### Application Quality: 15%
+- [Day.js](https://day.js.org/en/) - A date utility library used for working with date and time.
 
-* Application user experience is intuitive and easy to navigate
+## License
 
-* Application user interface style is clean and polished
-
-* Application resembles the mock-up functionality provided in the Challenge instructions
-
-### Repository Quality: 13%
-
-* Repository has a unique name
-
-* Repository follows best practices for file structure and naming conventions
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages
-
-* Repository contains quality README file with description, screenshot, and link to deployed application
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application
-
-* The URL of the GitHub repository, with a unique name and a README describing the project
-
-- - -
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+This project is licensed under the [MIT License](https://choosealicense.com/licenses/mit/).
