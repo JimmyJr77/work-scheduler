@@ -47,6 +47,9 @@ Current date displayed at top:
 Form fillable schedule blocks that save to local:
 ![Schedule blocks](/Assets/images/wd_sched_formfill.png)
 
+Schedule blocks change colors to represent future times, current times, and past times:
+![color filled blocks](/Assets/images/wed_color_change.png)
+
 ## Credits
 
 This was an individual project, but credit is always due to my instructors, mentors, and classmates at edX.
