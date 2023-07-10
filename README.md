@@ -57,4 +57,4 @@ The Work Day Scheduler project utilizes the following third-party assets:
 
 ## License
 
-This project is licensed under the [MIT License](https://choosealicense.com/licenses/mit/).
+This project is licensed under the [MIT License](https://choosealicense.com/licenses/mit/).  
