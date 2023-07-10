@@ -39,13 +39,13 @@ Once you have the Work Day Scheduler running, you can start utilizing its featur
 Below is an example screenshot of the Work Day Scheduler:
 
 Full site view:
-![Work Day Scheduler](/assets/images/wd_sched_full.png)
+![Work Day Scheduler](/Assets/images/wd_sched_full.png)
 
 Current date displayed at top:
-![Current date](/assets/images/wd_sched_date.png)
+![Current date](/Assets/images/wd_sched_date.png)
 
 Form fillable schedule blocks that save to local:
-![Schedule blocks](/assets/images/wd_sched_formfill.png)
+![Schedule blocks](/Assets/images/wd_sched_formfill.png)
 
 ## Credits
 
