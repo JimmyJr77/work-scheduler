@@ -22,7 +22,7 @@ $(function() {
     
     // Create the child elements within the new div
     var hourDiv = $("<div>").addClass("col-2 col-md-1 hour text-center py-3");
-    var textarea = $("<textarea>").addClass("col-8 col-md-10 description").attr("rows", 3);
+    var textarea = $("<textarea>").addClass("col-8 col-md-10 description").attr("rows", 3).attr("id", divId + "-textarea");
     var button = $("<button>").addClass("btn saveBtn col-2 col-md-1").attr("aria-label", "save");
     var icon = $("<i>").addClass("fas fa-save").attr("aria-hidden", "true");
     
